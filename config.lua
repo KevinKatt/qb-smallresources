@@ -119,17 +119,30 @@ Config.Teleports = {
         },
 
     },
-    --Coke Processing Enter/Exit
+    --Sjukhuset Hiss till taket
     [2] = {
         [1] = {
-            coords = vector4(909.49, -1589.22, 30.51, 92.24),
+            coords = vector4(330.43, -601.16, 43.28, 67.55),
             ["AllowVehicle"] = false,
-            drawText = '[E] Enter Coke Processing'
+            drawText = '[E] Ta hissen till taket'
         },
         [2] = {
-            coords = vector4(1088.81, -3187.57, -38.99, 181.7),
+            coords = vector4(338.52, -583.78, 74.16, 246.68),
             ["AllowVehicle"] = false,
-            drawText = '[E] Leave'
+            drawText = '[E] Ta hissen till huvudplanet'
+        },
+    },
+    --Sjukhuset Hiss till garaget
+    [3] = {
+        [1] = {
+            coords = vector4(332.41, -595.7, 43.28, 67.66),
+            ["AllowVehicle"] = false,
+            drawText = '[E] Ta hissen till garaget'
+        },
+        [2] = {
+            coords = vector4(340.14, -584.83, 28.8, 67.21),
+            ["AllowVehicle"] = false,
+            drawText = '[E] Ta hissen till huvudplanet'
         },
     },
 }
