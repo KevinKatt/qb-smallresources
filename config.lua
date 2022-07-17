@@ -110,12 +110,12 @@ Config.Teleports = {
         [1] = {
             coords = vector4(3540.74, 3675.59, 20.99, 167.5),
             ["AllowVehicle"] = false,
-            drawText = '[E] Take Elevator Up'
+            drawText = '[E] Ta hissen upp'
         },
         [2] = {
             coords = vector4(3540.74, 3675.59, 28.11, 172.5),
             ["AllowVehicle"] = false,
-            drawText = '[E] Take Elevator Down'
+            drawText = '[E] Ta hissen ner'
         },
 
     },
@@ -149,23 +149,24 @@ Config.Teleports = {
 
 Config.CarWash = { -- carwash
     [1] = {
-        ["label"] = "Hands Free Carwash",
+        ["label"] = "Biltvätt",
         ["coords"] = vector3(25.29, -1391.96, 29.33),
     },
     [2] = {
-        ["label"] = "Hands Free Carwash",
+        ["label"] = "Biltvätt",
         ["coords"] = vector3(174.18, -1736.66, 29.35),
     },
     [3] = {
-        ["label"] = "Hands Free Carwash",
+        ["label"] = "Biltvätt",
         ["coords"] = vector3(-74.56, 6427.87, 31.44),
     },
     [5] = {
-        ["label"] = "Hands Free Carwash",
+        ["label"] = "Biltvätt",
         ["coords"] = vector3(1363.22, 3592.7, 34.92),
     },
     [6] = {
-        ["label"] = "Hands Free Carwash",
+        ["label"] = "Biltvätt",
         ["coords"] = vector3(-699.62, -932.7, 19.01),
     }
+}
 }
